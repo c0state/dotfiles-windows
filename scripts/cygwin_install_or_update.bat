@@ -1,0 +1,1 @@
+"C:\Program Files\Cygwin Installation Files\setup-x86_64.exe" -s http://mirrors.kernel.org/sourceware/cygwin -R C:\cygwin64 -a x86_64 -P bash-completion,zsh,inetutils,openssh,wget,git,gitk,curl,ruby,python,python-setuptools,zsh -d -g -q
