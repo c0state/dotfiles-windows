@@ -11,6 +11,7 @@
 
 ; go back
 #!Left::Send ^!{Left}
+#!Right::Send ^!{Right}
 
 ; copy/paste
 !c::Send ^c
@@ -18,6 +19,7 @@
 !f::Send ^f
 +!f::Send ^+f
 +!r::Send ^+r
+!w::Send ^{F4}
 
 ; selection
 #Up::Send ^w
