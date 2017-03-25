@@ -14,12 +14,10 @@
 #!Right::Send ^!{Right}
 
 ; copy/paste
-!c::Send ^c
-!v::Send ^v
-!f::Send ^f
-+!f::Send ^+f
-+!r::Send ^+r
-!w::Send ^{F4}
+!+z::Send ^+z     ; redo
++!f::Send ^+f     ; find in path
++!r::Send ^+r     ; replace in path
+!w::Send ^{F4}    ; close tab
 
 ; selection
 #Up::Send ^w
