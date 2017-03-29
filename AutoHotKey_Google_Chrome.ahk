@@ -38,6 +38,10 @@
 !n::Send ^n
 +!n::Send +^n
 
+; forward/back
+!Left::Send !{Left}
+!Right::Send !{Right}
+
 ; tab forward and back
 +![::Send ^{PgUp}
 +!]::Send ^{PgDn}
