@@ -27,6 +27,11 @@
 ^#r::Send !+{F10}
 ^r::Send +{F10}
 ^d::Send +{F9}
+!#r::Send !+{F10}   ; run menu
+!#d::Send !+{F9}    ; debug menu
+!F9::Send ^{F9}     ; make project
+!F2::Send ^{F2}     ; stop
+#F7::Send !{F7}     ; find usages
 
 ; jump to file/class
 !o::Send ^n
