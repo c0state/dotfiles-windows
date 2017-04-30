@@ -32,6 +32,7 @@
 !F9::Send ^{F9}     ; make project
 !F2::Send ^{F2}     ; stop
 #F7::Send !{F7}     ; find usages
+!F8::Send ^{F8}     ; toggle breakpoint
 
 ; jump to file/class
 !o::Send ^n
