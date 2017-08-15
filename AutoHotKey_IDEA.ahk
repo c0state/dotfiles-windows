@@ -37,3 +37,6 @@
 ; jump to file/class
 !o::Send ^n
 +!o::Send ^+n
+
+; editing
+!/::Send ^/
