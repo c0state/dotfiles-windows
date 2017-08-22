@@ -7,24 +7,24 @@
 Capslock::Ctrl
 
 ; os x style copy/paste, etc.
-!c::Send ^c       ; copy
-!x::Send ^x       ; cut
-!v::Send ^v       ; paste
-!f::Send ^f       ; find
-!z::Send ^z       ; undo
-+!z::Send ^y      ; redo
-!w::Send !{F4}    ; close window
-!s::Send ^s       ; save
-!a::Send ^a       ; select all
+!c::SendInput ^c        ; copy
+!x::SendInput ^x        ; cut
+!v::SendInput ^v        ; paste
+!f::SendInput ^f        ; find
+!z::SendInput ^z        ; undo
++!z::SendInput ^y       ; redo
+!s::SendInput ^s        ; save
+!a::SendInput ^a        ; select all
+!h::SendInput !{Space}n ; hide window
 
 ; os x style home/end/backspace
-!Left::Send {Home}
-+!Left::Send +{Home}
-!Right::Send {End}
-+!Right::Send +{End}
-#Left::Send ^{Left}
-+#Left::Send +^{Left}
-#Right::Send ^{Right}
-+#Right::Send +^{Right}
-!Backspace::Send +{Home}{Backspace}
-#Backspace::Send ^{Backspace}
+!Left::SendInput {Home}
++!Left::SendInput +{Home}
+!Right::SendInput {End}
++!Right::SendInput +{End}
+#Left::SendInput ^{Left}
++#Left::SendInput +^{Left}
+#Right::SendInput ^{Right}
++#Right::SendInput +^{Right}
+!Backspace::SendInput +{Home}{Backspace}
+#Backspace::SendInput ^{Backspace}
