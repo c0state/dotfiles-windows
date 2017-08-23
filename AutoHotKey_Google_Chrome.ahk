@@ -10,7 +10,7 @@
 !f::SendInput ^f
 
 ; map close tab
-!w::SendInput ^w
+!w Up::SendInput ^w
 
 ; map new tab and undo close tab
 !t::SendInput ^t
