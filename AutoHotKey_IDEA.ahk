@@ -7,36 +7,36 @@
 #IfWinActive ahk_class SunAwtFrame
 
 ; goto declaration
-!b::Send ^b
+!b::SendInput ^b
 
 ; go back
-#!Left::Send ^!{Left}
-#!Right::Send ^!{Right}
+#!Left::SendInput ^!{Left}
+#!Right::SendInput ^!{Right}
 
 ; copy/paste
-!+z::Send ^+z     ; redo
-+!f::Send ^+f     ; find in path
-+!r::Send ^+r     ; replace in path
-!w::Send ^{F4}    ; close tab
+!+z::SendInput ^+z     ; redo
++!f::SendInput ^+f     ; find in path
++!r::SendInput ^+r     ; replace in path
+!w::SendInput ^{F4}    ; close tab
 
 ; selection
-#Up::Send ^w
-#Down::Send ^+w
+#Up::SendInput ^w
+#Down::SendInput ^+w
 
 ; run menu
-^#r::Send !+{F10}
-^r::Send +{F10}
-^d::Send +{F9}
-!#r::Send !+{F10}   ; run menu
-!#d::Send !+{F9}    ; debug menu
-!F9::Send ^{F9}     ; make project
-!F2::Send ^{F2}     ; stop
-#F7::Send !{F7}     ; find usages
-!F8::Send ^{F8}     ; toggle breakpoint
+^#r::SendInput !+{F10}
+^r::SendInput +{F10}
+^d::SendInput +{F9}
+!#r::SendInput !+{F10}   ; run menu
+!#d::SendInput !+{F9}    ; debug menu
+!F9::SendInput ^{F9}     ; make project
+!F2::SendInput ^{F2}     ; stop
+#F7::SendInput !{F7}     ; find usages
+!F8::SendInput ^{F8}     ; toggle breakpoint
 
 ; jump to file/class
-!o::Send ^n
-+!o::Send ^+n
+!o::SendInput ^n
++!o::SendInput ^+n
 
 ; editing
-!/::Send ^/
+!/::SendInput ^/

@@ -7,44 +7,44 @@
 #IfWinActive ahk_class Chrome_WidgetWin_1
 
 ; map fin
-!f::Send ^f
+!f::SendInput ^f
 
 ; map close tab
-!w::Send ^w
+!w::SendInput ^w
 
 ; map new tab and undo close tab
-!t::Send ^t
-+!t::Send +^t
+!t::SendInput ^t
++!t::SendInput +^t
 
 ; map go to universal bar
-!l::Send ^l
+!l::SendInput ^l
 
 ; map refresh
-!r::Send ^r
+!r::SendInput ^r
 
 ; map select all
-!a::Send ^a
+!a::SendInput ^a
 
 ; map copy
-!c::Send ^c
+!c::SendInput ^c
 
 ; map paste
-!v::Send ^v
+!v::SendInput ^v
 
 ; map undo
-!z::Send ^z
+!z::SendInput ^z
 
 ; map new window and new incognito window
-!n::Send ^n
-+!n::Send +^n
+!n::SendInput ^n
++!n::SendInput +^n
 
 ; forward/back
-!Left::Send !{Left}
-!Right::Send !{Right}
+!Left::SendInput !{Left}
+!Right::SendInput !{Right}
 
 ; tab forward and back
-+![::Send ^{PgUp}
-+!]::Send ^{PgDn}
++![::SendInput ^{PgUp}
++!]::SendInput ^{PgDn}
 
 ; reverse scrolling
 ; WheelUp::
