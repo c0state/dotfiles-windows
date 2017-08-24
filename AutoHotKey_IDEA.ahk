@@ -40,3 +40,4 @@
 
 ; editing
 !/::SendInput ^/
+#Enter::SendInput !{Enter}
