@@ -15,7 +15,7 @@ Capslock::Ctrl
 +!z::SendInput ^y       ; redo
 !s::SendInput ^s        ; save
 !a::SendInput ^a        ; select all
-!h::SendInput !{Space}n ; hide window
+!h::WinMinimize,A       ; hide window
 
 ; os x style home/end/backspace
 !Left::SendInput {Home}
