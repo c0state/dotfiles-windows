@@ -16,6 +16,7 @@ Capslock::Ctrl
 !s::SendInput ^s        ; save
 !a::SendInput ^a        ; select all
 !h::WinMinimize,A       ; hide window
+!q::WinClose,A          ; quit app
 
 ; os x style home/end/backspace
 !Left::SendInput {Home}
